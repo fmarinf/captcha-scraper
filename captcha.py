@@ -34,7 +34,7 @@ if __name__ == "__main__":
     url += "&pageurl=" + url
     url += "&json=0"
   
-    print (url)
+    print(url)
   
     response = requests.get(url)
   
@@ -80,5 +80,5 @@ if __name__ == "__main__":
   
     print ("Something is missing...")
   
-    contenido = driver.find_elements(By.CLASS_NAME,'recaptcha-success')
-    print (contenido.text)
+    content = driver.find_elements(By.CLASS_NAME,'recaptcha-success')
+    print (content.text)
